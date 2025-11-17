@@ -58,13 +58,19 @@ h1 {
   width: 125px;
 }
 .hero article{
-    background-color: var(--secondary-color);
+ position: absolute;
+  bottom: 0;             
+  left: -16px;               
+  width: 100%;          
+  background-color: var(--secondary-color);
+  opacity: 0.85;
 }
 h2{
     position: relative;
     text-align: center;
     background-color: #264653;
-    color: #fff
+    color: #fff;
+    margin-top: -7px; 
     
 }
 footer {
