@@ -8,6 +8,9 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
 }
 
 .flex-item {
@@ -20,7 +23,7 @@ body {
 }
 
 .item1 {
-    min-height: 100px;
+    flex-grow: 1;
 }
 
 .item2 {
