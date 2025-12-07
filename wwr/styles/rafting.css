@@ -320,9 +320,12 @@ width: fit-content;
 background-color: rgb(99, 99, 231);
 }
 .hero-title {
-  margin-top: 40px;
-  margin-bottom: -34px;
-
+  margin-top: 200px;
+margin-left: -100px;
+left:100px;
+background-color: white;
+color: black;
+opacity: 90%;
 }
 
 .cta img{
