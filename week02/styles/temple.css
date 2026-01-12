@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    margin: 10px 20px;
+padding:20px;
+}
+body{
+    font-family: Arial,  sans-serif;
+    margin:10px;
+}
+
+header, footer{
+    background-color: gray;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+h1{
+    margin:10px;
+    text-align: center;
+}
+main{
+    width: 400px;
+    margin:0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+section{
+margin: 20px 0;
+border: 1px solid black;
+padding: 10px;
+background-color: #abe;
+}
+h2{
+    border-bottom: 1px solid black;
+}
+footer{
+    font-size: 20px;
+}
+p{
+    margin:30px;
+}
