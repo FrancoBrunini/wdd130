@@ -121,18 +121,18 @@ header nav ul li:last-child {
   border-right: none;  
 }
 .history{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 10px;
   border:3px solid black;
   background-color: rgb(99, 99, 231);
   color:black;
   font-weight: 550;
+  
 
 }
 .history h2 {
+  text-align: center;
   background-color: white;
   color: black;
   display: flex;
@@ -141,6 +141,7 @@ header nav ul li:last-child {
   justify-content: center;
   width: 250px;
   background-color: rgb(99, 99, 231);
+  margin-left: 260px;
   
   
 }
