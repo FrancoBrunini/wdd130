@@ -10,6 +10,12 @@ header {
     background-color: gray;
     color: var(--accent2-color);
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    display:grid;
+      grid-template-columns: auto 1fr  ;
+          align-items: center;
+          padding: 10px;
+  width: 840px;
+  margin: 0 auto;
   }
 
 * {
@@ -87,18 +93,12 @@ footer {
   border-bottom: 5px solid var(--accent1-color);
   margin-top: 32px;
   padding-top: 16px;
-}
-header{
-  display:grid;
-      grid-template-columns: auto 1fr  ;
-          align-items: center;
-          padding: 10px;
-  width: 840px;
-  margin: 0 auto;
-
+   display: grid;
+  grid-template-columns: 70% 1fr 1fr 1fr;
+  font-weight: 600; 
+  justify-content: start;
   
 }
-
 
 header nav ul {
   display: flex;
@@ -188,14 +188,6 @@ header nav ul li:last-child {
   font-weight: 750;
   color: black;
   background-color:skyblue;
-}
-
-footer {
-  display: grid;
-  grid-template-columns: 70% 1fr 1fr 1fr;
-  font-weight: 600; 
-  justify-content: start;
-  
 }
 .socialmedia{
   display: grid;
@@ -311,21 +303,12 @@ form input[type="text"]{
   width: 100%;
   margin: 5px;
 }
-
-
-
-.indexform{
-height: 100%;
-  padding-top: 70px;
-  border-radius: 5px;
-  color: black;
-  font-size: 1.5rem;
-}
-
 .cta {
 position: relative;
 width: fit-content;
 background-color: rgb(99, 99, 231);
+ margin: 2px;
+  margin-left: 10px;
 }
 .hero-title {
   margin-top: 200px;
@@ -390,6 +373,11 @@ opacity: 90%;
 }
 .indexform{
   height: 400px;
+  height: 100%;
+  padding-top: 70px;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem;
 }
 .submision{
 margin: 1px;
@@ -405,13 +393,6 @@ font-weight:700 ;
   color: #fff;
   top: 20px;
   margin-bottom: 10px;
-}
-.cta{
-  margin: 2px;
-  margin-left: 10px;
-}
-.cta img{
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
 .trip-grid{
   display: grid;
