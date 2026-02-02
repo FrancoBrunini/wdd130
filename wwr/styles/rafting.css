@@ -197,7 +197,7 @@ header nav ul li:last-child {
   margin-left: 100px;
 }
 .employees{
-  background-color: gray;
+background-color: #555555;
   display:grid;
   padding: 20px;
   text-align: center;
