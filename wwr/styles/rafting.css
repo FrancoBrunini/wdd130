@@ -139,7 +139,6 @@ header nav ul li:last-child {
 
 .history h2 {
   text-align: center;
-  background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
@@ -366,13 +365,11 @@ opacity: 90%;
   width: 400px;
   height: 400px;
   object-fit: cover;  
-  border-radius: 6px;
   padding: 10px;
   border-radius: 30px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
 .indexform{
-  height: 400px;
   height: 100%;
   padding-top: 70px;
   border-radius: 5px;
