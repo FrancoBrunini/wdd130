@@ -245,7 +245,6 @@ form{
   background-color: rgb(99, 99, 231);
   color: white;
   padding: 1rem;
-    border: 1rem;
     
 }
 button {
@@ -317,7 +316,7 @@ margin-left: -100px;
 left:100px;
 background-color: white;
 color: black;
-opacity: 90%;
+opacity: 0.9;
 }
 
 .cta img{
@@ -412,7 +411,7 @@ font-weight:700 ;
   border: solid black 1px;
   background-color: rgb(99, 99, 231);
   color: white;
-  font-weight: 540;
+  font-weight: 500;
   padding: 10px;
       border-radius: 6px;
   margin-left: 10px;
@@ -424,8 +423,9 @@ font-weight:700 ;
   margin-top:5px;
 }
 .trip-grid h3{
-  background-color:skyblue;
+  background-color:#1f3c88;
   border-radius: 15px;
+  color: white;
   
 }
 .trip-table-section{
